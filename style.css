@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.block_one {
+  float: left;
+  background-color: purple;
+  width: 130px;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.block_two {
+  float: left;
+  background-color: #68da3e;
+  width: 130px;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.block_three {
+  float: left;
+  background-color: #00c6ab;
+  width: 130px;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.block_four {
+  float: left;
+  background-color: #6aa3b4;
+  width: 130px;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.block_five {
+  float: left;
+  background-color: #416864;
+  width: 130px;
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+/* Media Queries
+---------------------------------------------------*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 480px) {
+  .block_one,
+  .block_two,
+  .block_three,
+  .block_four,
+  .block_five {
+    width: 20px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 999px) {
+    .block_one,
+    .block_two,
+    .block_three,
+    .block_four,
+    .block_five {
+        width: 160px;
+    }
+  }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .block_one,
+    .block_two,
+    .block_three,
+    .block_four,
+    .block_five {
+      width: 190px;
+    }
+  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .block_one,
+    .block_two,
+    .block_three,
+    .block_four,
+    .block_five {
+      width: 200px;
+    }
+  }
